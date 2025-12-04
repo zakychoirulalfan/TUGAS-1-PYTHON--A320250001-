@@ -1,6 +1,8 @@
 nilai = int(input('masukkan nilai ='))
 
-if nilai >=80  :
+if nilai >= 101 :
+  print('invalid')
+elif nilai >= 80  :
   print('A')
 elif nilai >= 70  :
   print('B')
