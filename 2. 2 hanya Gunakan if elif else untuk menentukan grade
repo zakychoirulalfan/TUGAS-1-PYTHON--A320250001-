@@ -1,0 +1,8 @@
+grade = input('masukkan grade = ')
+
+if grade == 'a' or grade == 'b' or grade == 'c'  :
+  print('lulus')
+elif grade == 'd'or grade == 'e' :
+  print('tidak lulus')
+else :
+  print('invalid')
