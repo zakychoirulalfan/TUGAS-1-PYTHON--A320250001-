@@ -1,14 +1,14 @@
 nilai = int(input('masukkan nilai ='))
 
-if nilai >=80 and nilai >= 100  :
+if nilai >=80  :
   print('A')
-elif nilai >= 70 and nilai <80  :
+elif nilai >= 70  :
   print('B')
-elif nilai >= 60 and nilai <70  :
+elif nilai >= 60  :
   print('C')
-elif nilai >= 40 and nilai <60  :
+elif nilai >= 40  :
   print('D')
-elif nilai <40 and nilai >= 0  :
+elif nilai >= 0  :
   print('E')
 else :
   print('invalid')
